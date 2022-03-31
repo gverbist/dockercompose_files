@@ -5,13 +5,13 @@ services:
     image: lscr.io/linuxserver/bookstack
     container_name: bookstack
     environment:
-      - PUID=1000
-      - PGID=1000
-      - APP_URL=wiki.bist-1.com
-      - DB_HOST=bookstack_db
-      - DB_USER=bookstack
-      - DB_PASS=ioihfseafdl
-      - DB_DATABASE=bookstackapp
+      - puid=1000
+      - pgid=1000
+      - app_url=
+      - db_host=bookstack_db
+      - db_user=bookstack
+      - db_pass=ioihfseafdl
+      - db_database=bookstackapp
     volumes:
       - /dockervolumes/bookstack:/config
     ports:
