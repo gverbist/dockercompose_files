@@ -7,7 +7,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - APP_URL=wiki.bist.be
+      - APP_URL=wiki.bist-1.com
       - DB_HOST=bookstack_db
       - DB_USER=bookstack
       - DB_PASS=ioihfseafdl
